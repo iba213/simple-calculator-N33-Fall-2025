@@ -10,6 +10,21 @@ namespace SimpleCalculator
             //return Convert.ToDouble(input);
         }
 
-        public static 
+        public static string ValidationOperator(string argOperatorInput)
+        {
+            string input = argOperatorInput.ToLower().Trim();
+
+            if (input == "add" || input == "+"
+                || input == "substract" || input == "-"
+               || input == "multiply" || input == "*"
+               || input == "divide" || input == "/")
+            {
+                return argOperatorInput;
+            }else{
+                return "invalid input";
+            }
+    
+            
+        }
     }
 }
