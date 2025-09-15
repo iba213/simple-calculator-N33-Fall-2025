@@ -8,4 +8,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="CalcLib">
+      <HintPath>..\CalcLib\bin\Release\CalcLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
